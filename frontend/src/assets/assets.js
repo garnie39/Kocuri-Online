@@ -22,6 +22,9 @@ import thaifood from "./food/thaifood.jpg";
 import crossIcon from "./x.png";
 import starIcon from "./star.png";
 import starDullIcon from "./star_dull.png";
+import binIcon from "./delete.png";
+import cardIcon from "./credit-card.png";
+import paypalIcon from "./paypal.png";
 
 export const assets = {
   logo,
@@ -34,6 +37,9 @@ export const assets = {
   crossIcon,
   starIcon,
   starDullIcon,
+  binIcon,
+  cardIcon,
+  paypalIcon,
 };
 
 export const products = [
