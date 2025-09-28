@@ -17,6 +17,10 @@ const Navbar = () => {
           <p className="head-text">HOME</p>
           <hr className="w-2/4 border-none h-[1.5px]" />
         </NavLink>
+        <NavLink to="/gallery" className="flex flex-col items-center gap-1">
+          <p className="head-text">GALLERY ROOM</p>
+          <hr className="w-2/4 border-none h-[1.5px]" />
+        </NavLink>
         <NavLink to="/collection" className="flex flex-col items-center gap-1">
           <p className="head-text">COLLECTION</p>
           <hr className="w-2/4 border-none h-[1.5px]" />
@@ -89,6 +93,13 @@ const Navbar = () => {
             to="/"
           >
             HOME
+          </NavLink>
+          <NavLink
+            onClick={() => setVisible(false)}
+            className="py-2 pl-6 border menuList"
+            to="/gallery"
+          >
+            GALLERY ROOM
           </NavLink>
           <NavLink
             onClick={() => setVisible(false)}

@@ -27,7 +27,7 @@ const Order = () => {
                     {item.price}
                   </p>
                   <p>Quantity: 1</p>
-                  <p>Type: AA</p>
+                  <p>Type: {item.type[0]}</p>
                 </div>
                 <p className="mt-2">
                   Date: <span className="text-gray-400 ">10/10/2025</span>
